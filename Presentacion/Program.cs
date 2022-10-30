@@ -19,7 +19,7 @@ namespace Presentacion
             Proveedor proveedor = new Proveedor();
 
             proveedor.Id = 1;
-            proveedor.Nombres = "LUIS DAVID";
+            proveedor.Nombres = "CACHON";
             proveedor.Apellidos = "ARAGÓN ROSADO";
             proveedor.Documento = "1243621657";
             proveedor.Direccion = "CALLE 43 NO. 45-34";
