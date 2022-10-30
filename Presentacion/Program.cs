@@ -10,10 +10,10 @@ namespace Presentacion
             Cliente cliente = new Cliente();
 
             cliente.Id = 1;
-            cliente.Nombres = "LUIS CAMILO";
-            cliente.Apellidos = "ARAGÓN ROSADO";
-            cliente.Documento = "1243621657";
-            cliente.Direccion = "CALLE 43 NO. 45-34";
+            cliente.Nombres = "JOSE ARTURO";
+            cliente.Apellidos = "QUINTERO HERNANDEZ";
+            cliente.Documento = "89897867547";
+            cliente.Direccion = "CALLE 56 NO. 45-34";
             cliente.TipoCliente = "ESTANDAR";
 
             Proveedor proveedor = new Proveedor();
