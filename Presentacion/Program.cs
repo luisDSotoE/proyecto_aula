@@ -10,7 +10,7 @@ namespace Presentacion
             Cliente cliente = new Cliente();
 
             cliente.Id = 1;
-            cliente.Nombres = "JOSE ARTURO";
+            cliente.Nombres = "*** ADRUIN QUINTERO ***";
             cliente.Apellidos = "QUINTERO HERNANDEZ";
             cliente.Documento = "89897867547";
             cliente.Direccion = "CALLE 56 NO. 45-34";
