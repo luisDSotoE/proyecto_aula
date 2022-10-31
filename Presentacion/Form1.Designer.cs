@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panelMenuL = new System.Windows.Forms.Panel();
             this.panelLogo = new System.Windows.Forms.Panel();
             this.btn_INICIO = new System.Windows.Forms.Button();
@@ -43,9 +44,12 @@
             this.panel_SudMenuFact = new System.Windows.Forms.Panel();
             this.btn_costos = new System.Windows.Forms.Button();
             this.btn_Salir = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panelMenuL.SuspendLayout();
+            this.panelLogo.SuspendLayout();
             this.panelSudMenuInicio.SuspendLayout();
             this.panel_SudMenuFact.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panelMenuL
@@ -66,6 +70,7 @@
             // 
             // panelLogo
             // 
+            this.panelLogo.Controls.Add(this.pictureBox1);
             this.panelLogo.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelLogo.Location = new System.Drawing.Point(0, 0);
             this.panelLogo.Name = "panelLogo";
@@ -272,6 +277,16 @@
             this.btn_Salir.UseVisualStyleBackColor = true;
             this.btn_Salir.Click += new System.EventHandler(this.btn_Salir_Click);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(27, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(198, 100);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
@@ -284,8 +299,10 @@
             this.Name = "Form1";
             this.Text = "Form1";
             this.panelMenuL.ResumeLayout(false);
+            this.panelLogo.ResumeLayout(false);
             this.panelSudMenuInicio.ResumeLayout(false);
             this.panel_SudMenuFact.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -307,6 +324,7 @@
         private System.Windows.Forms.Button btn_Admin;
         private System.Windows.Forms.Button btn_Facturar;
         private System.Windows.Forms.Button btn_Salir;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

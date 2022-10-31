@@ -60,11 +60,13 @@ namespace Presentacion
         private void btn_INICIO_Click(object sender, EventArgs e)
         {
             showSudMenu(panelSudMenuInicio);
+            HidSudMenu();
         }
 
         private void btn_Fact_Click(object sender, EventArgs e)
         {
             showSudMenu(panel_SudMenuFact);
+            HidSudMenu();
         }
 
         private void panelSudMenuInicio_Paint(object sender, PaintEventArgs e)
