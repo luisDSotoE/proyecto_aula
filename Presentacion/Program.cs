@@ -1,36 +1,22 @@
-﻿using Entidades;
-using System;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace Presentacion
 {
-    internal class Program
+    internal static class Program
     {
-        static void Main(string[] args)
+        /// <summary>
+        /// Punto de entrada principal para la aplicación.
+        /// </summary>
+        [STAThread]
+        static void Main()
         {
-            Cliente cliente = new Cliente();
-
-            cliente.Id = 1;
-            cliente.Nombres = "*** perro hijuemadre QUINTERO ***";
-            cliente.Apellidos = "QUINTERO HERNANDEZ";
-            cliente.Documento = "89897867547";
-            cliente.Direccion = "CALLE 56 NO. 45-34";
-            cliente.TipoCliente = "ESTANDAR";
-
-            Proveedor proveedor = new Proveedor();
-
-            proveedor.Id = 1;
-            proveedor.Nombres = "CACHON";
-            proveedor.Apellidos = "ARAGÓN ROSADO";
-            proveedor.Documento = "1243621657";
-            proveedor.Direccion = "CALLE 43 NO. 45-34";
-            proveedor.NIT = "1F33GV-1";
-            proveedor.RazonSocial = "FAMILCOL S.A";
-            proveedor.Correo = "FAMILCOL@EMPRESA.COM";
-
-            System.Console.WriteLine(cliente.ToString());
-            System.Console.WriteLine(proveedor.ToString());
-            Console.ReadKey();
-            
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new Form1());
         }
     }
 }
