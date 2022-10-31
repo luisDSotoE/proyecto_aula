@@ -61,7 +61,7 @@
             this.panelMenuL.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelMenuL.Location = new System.Drawing.Point(0, 0);
             this.panelMenuL.Name = "panelMenuL";
-            this.panelMenuL.Size = new System.Drawing.Size(250, 653);
+            this.panelMenuL.Size = new System.Drawing.Size(250, 703);
             this.panelMenuL.TabIndex = 0;
             // 
             // panelLogo
@@ -69,7 +69,7 @@
             this.panelLogo.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelLogo.Location = new System.Drawing.Point(0, 0);
             this.panelLogo.Name = "panelLogo";
-            this.panelLogo.Size = new System.Drawing.Size(229, 100);
+            this.panelLogo.Size = new System.Drawing.Size(250, 100);
             this.panelLogo.TabIndex = 0;
             // 
             // btn_INICIO
@@ -80,7 +80,7 @@
             this.btn_INICIO.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_INICIO.Location = new System.Drawing.Point(0, 100);
             this.btn_INICIO.Name = "btn_INICIO";
-            this.btn_INICIO.Size = new System.Drawing.Size(229, 45);
+            this.btn_INICIO.Size = new System.Drawing.Size(250, 45);
             this.btn_INICIO.TabIndex = 1;
             this.btn_INICIO.Text = "INICIO";
             this.btn_INICIO.UseVisualStyleBackColor = true;
@@ -95,8 +95,9 @@
             this.panelSudMenuInicio.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelSudMenuInicio.Location = new System.Drawing.Point(0, 145);
             this.panelSudMenuInicio.Name = "panelSudMenuInicio";
-            this.panelSudMenuInicio.Size = new System.Drawing.Size(229, 152);
+            this.panelSudMenuInicio.Size = new System.Drawing.Size(250, 152);
             this.panelSudMenuInicio.TabIndex = 2;
+            this.panelSudMenuInicio.Paint += new System.Windows.Forms.PaintEventHandler(this.panelSudMenuInicio_Paint);
             // 
             // btn_FA
             // 
@@ -108,7 +109,7 @@
             this.btn_FA.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_FA.Location = new System.Drawing.Point(0, 0);
             this.btn_FA.Name = "btn_FA";
-            this.btn_FA.Size = new System.Drawing.Size(229, 56);
+            this.btn_FA.Size = new System.Drawing.Size(250, 56);
             this.btn_FA.TabIndex = 0;
             this.btn_FA.Text = "Fertilizantes y agroquímicos.";
             this.btn_FA.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -124,7 +125,7 @@
             this.btn_SM.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_SM.Location = new System.Drawing.Point(0, 56);
             this.btn_SM.Name = "btn_SM";
-            this.btn_SM.Size = new System.Drawing.Size(229, 61);
+            this.btn_SM.Size = new System.Drawing.Size(250, 61);
             this.btn_SM.TabIndex = 1;
             this.btn_SM.Text = "Semillas y materiales para la siembra.";
             this.btn_SM.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -140,7 +141,7 @@
             this.btn_Maquinaria.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Maquinaria.Location = new System.Drawing.Point(0, 117);
             this.btn_Maquinaria.Name = "btn_Maquinaria";
-            this.btn_Maquinaria.Size = new System.Drawing.Size(229, 29);
+            this.btn_Maquinaria.Size = new System.Drawing.Size(250, 29);
             this.btn_Maquinaria.TabIndex = 2;
             this.btn_Maquinaria.Text = "Maquinaria y equipos.";
             this.btn_Maquinaria.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -154,7 +155,7 @@
             this.btn_Fact.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Fact.Location = new System.Drawing.Point(0, 297);
             this.btn_Fact.Name = "btn_Fact";
-            this.btn_Fact.Size = new System.Drawing.Size(229, 79);
+            this.btn_Fact.Size = new System.Drawing.Size(250, 79);
             this.btn_Fact.TabIndex = 3;
             this.btn_Fact.Text = "FACTURA Y CONTROL DE INVENTARIO";
             this.btn_Fact.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -171,7 +172,7 @@
             this.btn_Facturar.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Facturar.Location = new System.Drawing.Point(0, 0);
             this.btn_Facturar.Name = "btn_Facturar";
-            this.btn_Facturar.Size = new System.Drawing.Size(229, 40);
+            this.btn_Facturar.Size = new System.Drawing.Size(250, 40);
             this.btn_Facturar.TabIndex = 0;
             this.btn_Facturar.Text = "Facturar";
             this.btn_Facturar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -187,7 +188,7 @@
             this.btn_Admin.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Admin.Location = new System.Drawing.Point(0, 40);
             this.btn_Admin.Name = "btn_Admin";
-            this.btn_Admin.Size = new System.Drawing.Size(229, 40);
+            this.btn_Admin.Size = new System.Drawing.Size(250, 40);
             this.btn_Admin.TabIndex = 1;
             this.btn_Admin.Text = "Administrar pedidos";
             this.btn_Admin.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -203,7 +204,7 @@
             this.btn_Mercancia.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Mercancia.Location = new System.Drawing.Point(0, 80);
             this.btn_Mercancia.Name = "btn_Mercancia";
-            this.btn_Mercancia.Size = new System.Drawing.Size(229, 40);
+            this.btn_Mercancia.Size = new System.Drawing.Size(250, 40);
             this.btn_Mercancia.TabIndex = 2;
             this.btn_Mercancia.Text = "Ingresar mercancia";
             this.btn_Mercancia.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -220,7 +221,7 @@
             this.btn_Despachar.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Despachar.Location = new System.Drawing.Point(0, 120);
             this.btn_Despachar.Name = "btn_Despachar";
-            this.btn_Despachar.Size = new System.Drawing.Size(229, 40);
+            this.btn_Despachar.Size = new System.Drawing.Size(250, 40);
             this.btn_Despachar.TabIndex = 3;
             this.btn_Despachar.Text = "Despachar mercancia";
             this.btn_Despachar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -237,8 +238,9 @@
             this.panel_SudMenuFact.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel_SudMenuFact.Location = new System.Drawing.Point(0, 376);
             this.panel_SudMenuFact.Name = "panel_SudMenuFact";
-            this.panel_SudMenuFact.Size = new System.Drawing.Size(229, 211);
+            this.panel_SudMenuFact.Size = new System.Drawing.Size(250, 211);
             this.panel_SudMenuFact.TabIndex = 4;
+            this.panel_SudMenuFact.Paint += new System.Windows.Forms.PaintEventHandler(this.panel_SudMenuFact_Paint);
             // 
             // btn_costos
             // 
@@ -250,7 +252,7 @@
             this.btn_costos.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_costos.Location = new System.Drawing.Point(0, 160);
             this.btn_costos.Name = "btn_costos";
-            this.btn_costos.Size = new System.Drawing.Size(229, 40);
+            this.btn_costos.Size = new System.Drawing.Size(250, 40);
             this.btn_costos.TabIndex = 4;
             this.btn_costos.Text = "Costos por articulos";
             this.btn_costos.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -274,7 +276,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(982, 653);
+            this.ClientSize = new System.Drawing.Size(1102, 703);
             this.Controls.Add(this.panelMenuL);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);

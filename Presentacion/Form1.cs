@@ -66,5 +66,15 @@ namespace Presentacion
         {
             showSudMenu(panel_SudMenuFact);
         }
+
+        private void panelSudMenuInicio_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel_SudMenuFact_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
