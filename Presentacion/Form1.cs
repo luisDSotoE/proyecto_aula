@@ -42,12 +42,39 @@ namespace Presentacion
             else
                 sudMenu.Visible = false;
         }
+
+        void abrirForm(Form form) {
+            while (PanelGeneral.Controls.Count > 0) {
+                PanelGeneral.Controls.RemoveAt(0);
+            }
+            Form Hijo = form;
+            form.TopLevel = false;
+            Hijo.FormBorderStyle = FormBorderStyle.None;
+            Hijo.Dock = DockStyle.Fill;
+            PanelGeneral.Text = Hijo.Text;
+            PanelGeneral.Controls.Add(Hijo);
+            Hijo.Show();
+        }
+
         private void btn_Mercancia_Click(object sender, EventArgs e)
         {
-
+            IngMercancia Frm = new IngMercancia();
+            abrirForm(Frm);
+            Frm.TopLevel = false;
+            PanelGeneral.Controls.Add(Frm);
+            Frm.Show();
         }
 
         private void btn_costos_Click(object sender, EventArgs e)
+        {
+            Costos Frm = new Costos();
+            abrirForm(Frm);
+            Frm.TopLevel = false;
+            PanelGeneral.Controls.Add(Frm);
+            Frm.Show();
+        }
+
+        private void btn_audMovimietos_Click(object sender, EventArgs e)
         {
 
         }
@@ -75,6 +102,66 @@ namespace Presentacion
         }
 
         private void panel_SudMenuFact_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_Facturar_Click(object sender, EventArgs e)
+        {
+            Facturacion Frm = new Facturacion();
+            abrirForm(Frm);
+            Frm.TopLevel = false;
+            PanelGeneral.Controls.Add(Frm);
+            Frm.Show();
+        }
+
+        private void btn_Admin_Click(object sender, EventArgs e)
+        {
+            Pedidos Frm = new Pedidos();
+            abrirForm(Frm);
+            Frm.TopLevel = false;
+            PanelGeneral.Controls.Add(Frm);
+            Frm.Show();
+        }
+
+        private void btn_Despachar_Click(object sender, EventArgs e)
+        {
+            DesMercancia Frm = new DesMercancia();
+            abrirForm(Frm);
+            Frm.TopLevel = false;
+            PanelGeneral.Controls.Add(Frm);
+            Frm.Show();
+        }
+
+        private void btn_audmovimientos_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_FA_Click(object sender, EventArgs e)
+        {
+            FertilizanteYAgroquimicos Frm = new FertilizanteYAgroquimicos();
+            abrirForm(Frm);
+            Frm.TopLevel = false;
+            PanelGeneral.Controls.Add(Frm);
+            Frm.Show();
+        }
+
+        private void btn_SM_Click(object sender, EventArgs e)
+        {
+            SemillasyMateriales Frm = new SemillasyMateriales();
+            abrirForm(Frm);
+            Frm.TopLevel = false;
+            PanelGeneral.Controls.Add(Frm);
+            Frm.Show();
+        }
+
+        private void btn_Maquinaria_Click(object sender, EventArgs e)
         {
 
         }
