@@ -1,0 +1,6 @@
+C:\Users\Josman\source\repos\Proyceto\Datos\bin\Debug\Datos.dll
+C:\Users\Josman\source\repos\Proyceto\Datos\bin\Debug\Datos.pdb
+C:\Users\Josman\source\repos\Proyceto\Datos\obj\Debug\Datos.csproj.AssemblyReference.cache
+C:\Users\Josman\source\repos\Proyceto\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
+C:\Users\Josman\source\repos\Proyceto\Datos\obj\Debug\Datos.dll
+C:\Users\Josman\source\repos\Proyceto\Datos\obj\Debug\Datos.pdb
